@@ -1,0 +1,30 @@
+table{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 1.25rem 2.50rem;
+    background-color: rgb(0, 128, 100);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.animate{
+    opacity: 0.8;
+}
+
+input[type="text"] {
+    padding: 1.25rem 1.87rem;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+}
+
