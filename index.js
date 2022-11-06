@@ -60,11 +60,9 @@ display.addEventListener("keydown",function(event){
     }
     else if (operatorArray.includes(event.shiftKey)){
         operator += event.key;
-        console.log("operator: " + operator);
         }
     else if(operatorArray.includes(event.key)){
         operator += event.key;
-        console.log("operator: " + operator);
     }
     else if (event.key == "Backspace"){
         
@@ -72,11 +70,9 @@ display.addEventListener("keydown",function(event){
     else{
         if((operator =="") && (event.key != "Shift")){
             number1 += event.key;
-            console.log("Number1: " + number1);
         }
         else if ((operator !="") && (event.key != "Shift")){
             number2 += event.key;
-            console.log("Number2: " + number2);
         }
     }
 })
